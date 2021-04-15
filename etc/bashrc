@@ -44,8 +44,8 @@ export WM_PROJECT_VERSION=dev
 #
 [ "$BASH" -o "$ZSH_NAME" ] && \
 export FOAM_INST_DIR=$(cd $(dirname ${BASH_SOURCE:-$0})/../.. && pwd -P) || \
-export FOAM_INST_DIR=$HOME/opt/enrico/vendor/openfoam/
-# export FOAM_INST_DIR=~$WM_PROJECT
+#export FOAM_INST_DIR=$HOME/opt/enrico/vendor/openfoam/
+export FOAM_INST_DIR=~$WM_PROJECT
 # export FOAM_INST_DIR=/opt/$WM_PROJECT
 # export FOAM_INST_DIR=/usr/local/$WM_PROJECT
 #
