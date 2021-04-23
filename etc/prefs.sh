@@ -36,10 +36,10 @@
 #
 #------------------------------------------------------------------------------
 
-export MPI_ROOT=/usr
+export MPI_ROOT=/content/mpich_install
 export MPI_ARCH_FLAGS="-Wl,-Bsymbolic-functions -Wl,-z,relro"
-export MPI_ARCH_LIBS="-L/usr/lib/x86_64-linux-gnu -lmpich"
-export MPI_ARCH_INC="-I/usr/include/ -L/usr/lib/x86_64-linux-gnu"
+export MPI_ARCH_LIBS="-L/content/mpich_install/lib -lmpich"
+export MPI_ARCH_INC="-I/content/mpich_install/include -L/content/mpich_install/lib"
 export WM_MPLIB=SYSTEMMPI
 
 
